@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -88,8 +88,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.2-impl \
     libbson.vendor \
-    libxml2 \
-    Snap
+    libxml2
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
@@ -214,13 +213,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.sdm660
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+#PRODUCT_PACKAGES += \
+#    LineageActions
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -376,10 +370,6 @@ PRODUCT_PACKAGES += \
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
