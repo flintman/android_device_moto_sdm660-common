@@ -10,8 +10,8 @@
    "branch":      "q10x"
   },
   {
-   "repository":  "DirtyUnicorns/android_hardware_qcom_thermal",
-   "target_path": "hardware/qcom-caf/thermal",
+   "repository":  "DirtyUnicorns/android_external_json-c",
+   "target_path": "external/json-c",
    "branch":      "q10x"
   },
   {
@@ -50,13 +50,33 @@
    "branch":      "q10x"
   },
   {
+   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
+   "target_path": "vendor/qcom/opensource/dataservices",
+   "branch":      "q10x"
+  },
+  {
+   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_fm-commonsys",
+   "target_path": "vendor/qcom/opensource/fm-commonsys",
+   "branch":      "q10x"
+  },
+  {
    "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_interfaces",
    "target_path": "vendor/qcom/opensource/interfaces",
    "branch":      "q10x"
   },
   {
+   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_libfmjni",
+   "target_path": "vendor/qcom/opensource/libfmjni",
+   "branch":      "q10x"
+  },
+  {
    "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_power",
    "target_path": "vendor/qcom/opensource/power",
+   "branch":      "q10x"
+  },
+  {
+   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_thermal-engine",
+   "target_path": "vendor/qcom/opensource/thermal-engine",
    "branch":      "q10x"
   },
   {
