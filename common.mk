@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec
 
 # Dalvik
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/extras/configs/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Display
 PRODUCT_PACKAGES += \
