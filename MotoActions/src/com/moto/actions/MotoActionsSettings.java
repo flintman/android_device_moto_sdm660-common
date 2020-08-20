@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.moto.actions;
+package com.dirtyunicorns.settings.device;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,9 +23,9 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
 
-import com.moto.actions.actions.UpdatedStateNotifier;
-import com.moto.actions.actions.CameraActivationAction;
-import com.moto.actions.actions.TorchAction;
+import com.dirtyunicorns.settings.device.actions.UpdatedStateNotifier;
+import com.dirtyunicorns.settings.device.actions.CameraActivationAction;
+import com.dirtyunicorns.settings.device.actions.TorchAction;
 
 public class MotoActionsSettings {
     private static final String TAG = "MotoActions";
