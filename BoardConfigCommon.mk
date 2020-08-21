@@ -140,6 +140,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8998
 
+# Libjson (CAF)
+BOARD_USES_CAF_LIBJSON := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
