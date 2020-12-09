@@ -22,7 +22,7 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/motorola/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, vendor/moto/sdm660-common/sdm660-common-vendor.mk)
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Dalvik
-$(call inherit-product, vendor/extras/configs/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Display
 PRODUCT_PACKAGES += \
