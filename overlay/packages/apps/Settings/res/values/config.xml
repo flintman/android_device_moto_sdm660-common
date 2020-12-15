@@ -19,4 +19,10 @@
     <!-- Display ro.product.name above Device model -->
     <bool name="config_displayDeviceName">true</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">com.moto.actions/com.moto.actions.DozePreferenceActivity</string>
+
+    <!-- Device specific gesture package -->
+    <string name="config_customGesturePackage">com.moto.actions/com.moto.actions.ActionsPreferenceActivity</string>
+
 </resources>
