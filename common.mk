@@ -91,7 +91,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.2-impl \
     libbson.vendor \
-    libxml2
+    libxml2 \
+    Snap
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
