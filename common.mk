@@ -439,7 +439,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wificond \
     wifilogd \
-    WifiOverlay-660 \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
     wpa_supplicant_wcn.conf
