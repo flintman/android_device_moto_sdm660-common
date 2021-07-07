@@ -162,7 +162,6 @@ TARGET_USES_MKE2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
-TARGET_PROVIDES_POWERHAL := true
 TARGET_USES_INTERACTION_BOOST := true
 
 # RIL
@@ -183,9 +182,6 @@ VENDOR_SECURITY_PATCH := 2021-02-01
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/private
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(PLATFORM_PATH)
 
 # Timeservice
 BOARD_USES_QC_TIME_SERVICES := true
