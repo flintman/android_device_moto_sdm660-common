@@ -63,7 +63,8 @@ USE_LIB_PROCESS_GROUP := true
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib/libmdmcutback.so|libqsapshim.so \
     /vendor/lib64/libmdmcutback.so|libqsapshim.so \
-    /vendor/lib64/libril-qc-hal-qmi.so|libcutils_shim.so
+    /vendor/lib64/libril-qc-hal-qmi.so|libcutils_shim.so \
+    /vendor/lib/libmot_gpu_mapper.so|libgpu_mapper_shim.so
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth

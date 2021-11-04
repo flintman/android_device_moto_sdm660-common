@@ -88,7 +88,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libbson.vendor \
     libxml2 \
-    Snap
+    Snap \
+    android.frameworks.displayservice@1.0.vendor \
+    libgpu_mapper_shim
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
